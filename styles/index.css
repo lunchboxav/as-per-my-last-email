@@ -1,0 +1,26 @@
+p {
+  font-size: 1.25rem;
+}
+
+.content-container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.content {
+  margin: 16px 0;
+  padding: 0 16px;
+  border: 4px solid skyblue;
+}
+
+
+.post-detail {
+  font-size: 0.9rem;
+  background: aliceblue;
+  padding: 8px;
+  margin-bottom: 0;
+  margin-left: -16px;
+  margin-right: -16px;
+  padding-left: 16px;
+}

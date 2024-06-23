@@ -20,9 +20,7 @@ for (let i = 0; i < files.length; i++) {
   // insert content and date
   let _contentTemplate = baseSectionTemplate;
   let section = _contentTemplate.replace("<slot></slot>", content);
-  console.log(section);
   section = section.replace("time", date);
-  console.log(section);
   
   homePageContent += section;
 }
