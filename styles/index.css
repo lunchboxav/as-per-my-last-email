@@ -10,7 +10,7 @@ li {
 
 ul,
 ol {
-  margin-left: 1.7rem;
+  padding: revert;
 }
 
 .content-container {
