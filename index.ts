@@ -13,7 +13,6 @@ const baseSectionTemplate = await baseSectionFile.text();
 
 // read all the content of /notes and bundle it as section name homePageContent
 for (let i = files.length-1; i >= 0; i--) {
-  console.log(i);
   const contentFile = Bun.file("./notes/" + files[i]);
   const content = await contentFile.text();
   const date = new Date(contentFile.lastModified).toDateString();
